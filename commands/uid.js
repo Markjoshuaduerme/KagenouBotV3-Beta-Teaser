@@ -40,7 +40,7 @@ module.exports = {
 
     }
 
-    const message = `====『 𝗨𝗦𝗘𝗥 𝗨𝗜𝗗 』====\n\n 𝗧𝗮𝗿𝗴𝗲𝘁: ${targetName}\n 𝗨𝗜𝗗: ${targetID}\n\n> 𝗨𝘀𝗲𝗳𝘂𝗹 𝗳𝗼𝗿 𝗮𝗱𝗺𝗶𝗻 𝗼𝗿 𝘂𝘀𝗲𝗿 𝗺𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁.`;
+    const message = `====『 𝗨𝗦𝗘𝗥 𝗨𝗜𝗗 』====\n\n 𝗧𝗮𝗿𝗴𝗲𝘁: ${targetName}\n 𝗨𝗜𝗗: ${targetID}\n\n> Yan na uid mo boss.`;
 
     api.sendMessage(message, threadID, messageID);
 
