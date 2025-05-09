@@ -15,7 +15,7 @@ module.exports = {
                 const userInfo = await api.getUserInfo(leftUserID);
                 const userName = userInfo[leftUserID]?.name || "Someone";
 
-                api.sendMessage(`😢 ${userName} has left the group. We'll miss you!`, threadID);
+                api.sendMessage(`😢 ${userName} ay umalis sa group chat deserve muyan haha wag kana babalik ha!`, threadID);
             } catch (error) {
                 console.error("Error fetching user info:", error);
             }
