@@ -7,7 +7,7 @@ module.exports = {
   usage: 'adminlist',
   execute: async (api, event, args, commands, prefix, admins, appState, sendMessage) => {
     const { threadID } = event;
-    let adminListMessage = "Admins 👑\n";
+    let adminListMessage = "🥇👑Keijo lang to\n";
 
     for (const adminID of admins) {
       try {
