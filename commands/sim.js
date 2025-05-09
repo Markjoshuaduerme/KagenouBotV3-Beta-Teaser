@@ -14,7 +14,7 @@ module.exports = {
 
         if (args.length === 0) {
 
-            return api.sendMessage("Please provide a message to chat with SimSimi!", event.threadID, event.messageID);
+            return api.sendMessage("lagyan munang question para makausap mo si keijo!", event.threadID, event.messageID);
 
         }
 
