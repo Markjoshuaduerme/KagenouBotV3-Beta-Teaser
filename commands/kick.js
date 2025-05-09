@@ -5,7 +5,7 @@ module.exports = {
     const { threadID, senderID, mentions } = event;
 
     if (!admins.includes(senderID)) {
-      sendMessage(api, { threadID, message: "❌ You are not an admin!" });
+      sendMessage(api, { threadID, message: "❌ hindi ka admin bugok!" });
       return;
     }
 
