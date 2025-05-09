@@ -29,7 +29,7 @@ module.exports = {
       const uptimeDays = Math.floor(uptimeHours / 24);
 
 
-      let uptimeMessage = `====『 𝗕𝗢𝗧 𝗨𝗣𝗧𝗜𝗠𝗘 』====\n\n`;
+      let uptimeMessage = `====『 🥇Ito yung buhay ni keijo matapos nyang makita si liyani 』====\n\n`;
 
       uptimeMessage += `  ╭─╮\n`;
 
