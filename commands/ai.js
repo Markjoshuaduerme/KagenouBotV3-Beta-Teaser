@@ -21,7 +21,7 @@ module.exports = {
 
         if (!query) {
 
-            return api.sendMessage("Please provide a query. Usage: ${prefix}ai <query>", threadID, messageID);
+            return api.sendMessage("Please provide a question dimarunong gumamit parihas lang kayu ni #hoy giatay, #vern : ${prefix}ai <query>", threadID, messageID);
 
         }
 
