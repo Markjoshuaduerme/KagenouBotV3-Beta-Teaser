@@ -29,7 +29,7 @@ module.exports = {
       const uptimeDays = Math.floor(uptimeHours / 24);
 
 
-      let uptimeMessage = `====『 🥇Ito yung buhay ni keijo matapos nyang makita si liyani 』====\n\n`;
+      let uptimeMessage = `====『 🥇Ito yung buhay ni keijo matapos nyang makilala si liyani 』====\n\n`;
 
       uptimeMessage += `  ╭─╮\n`;
 
@@ -37,9 +37,9 @@ module.exports = {
 
       uptimeMessage += `  ╰─────────────ꔪ\n\n`;
 
-      uptimeMessage += `> 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 𝗼𝘂𝗿 𝗖𝗶𝗱 �_K𝗮𝗴𝗲𝗻𝗼𝘂 𝗯𝗼𝘁\n`;
+      uptimeMessage += `> 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 𝗼𝘂𝗿 KEIJO �_BOTV2\n`;
 
-      uptimeMessage += `> 𝗙𝗼𝗿 𝗳𝘂𝗿𝘁𝗵𝗲𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲, 𝗰𝗼𝗻𝘁𝗮𝗰𝘁: 𝗸𝗼𝗿𝗶𝘀𝗮𝘄𝗮𝘂𝗺𝘂𝘇𝗮𝗸𝗶@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺`;
+      uptimeMessage += `> 𝗙𝗼𝗿 𝗳𝘂𝗿𝘁𝗵𝗲𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲, 𝗰𝗼𝗻𝘁𝗮𝗰𝘁: https://www.facebook.com/c8py.link.kan4n4m4nb0b0`;
 
       sendMessage(api, { threadID, message: uptimeMessage });
 
