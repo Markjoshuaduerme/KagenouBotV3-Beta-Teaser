@@ -22,7 +22,7 @@ module.exports = {
                 });
                 names.push(`@${user.fullName}`);
             }
-            const welcomeMessage = `🎉 Welcome ${names.join(", ")} to the group chat!e enjoy mo ang iyung pag stay sa group chat💜!`;
+            const welcomeMessage = `🎉 Welcome ${names.join(", ")} to the group chat! Enjoy your stay!`;
             api.sendMessage({ body: welcomeMessage, mentions }, threadID);
         }
     }
