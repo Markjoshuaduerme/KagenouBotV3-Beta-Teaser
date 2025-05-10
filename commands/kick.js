@@ -10,7 +10,7 @@ module.exports = {
     }
 
     if (Object.keys(mentions).length === 0) {
-      sendMessage(api, { threadID, message: "❌ Please mention a user to kick master 🥇keijo gwapo × liyani!" });
+      sendMessage(api, { threadID, message: "❌ Please mention a user to kick master 🥇keijo gwapo × liane!" });
       return;
     }
 
