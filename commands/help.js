@@ -186,7 +186,7 @@ module.exports = {
 
     let helpMessage = "════『 🎀Keijo help center 』════📜\n";
 
-    helpMessage += "      『 Command list na pweding gamitin 』\n\n";
+    helpMessage += "      『 Command list 』\n\n";
 
     if (paginatedCommands.length > 0) {
 
@@ -210,11 +210,11 @@ module.exports = {
 
     helpMessage += totalPages > 1 ? `> 𝗧𝘆𝗽𝗲 ${prefix}he𝗹𝗽 <𝗽𝗮𝗴𝗲> 𝘁𝗼 𝘀𝗲𝗲 𝗺𝗼𝗿𝗲 (𝗲.𝗴., ${prefix}𝗵𝗲𝗹𝗽 2).\n` : "";
 
-    helpMessage += `> 𝗧𝘆𝗽𝗲 ${prefix}𝗵𝗲𝗹𝗽 <𝗰𝗼𝗺𝗺𝗮𝗻𝗱> 𝗳𝗼𝗿 𝗺𝗼𝗿𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀.mga kuntrabida at salut sa lipunan #hoy giatay, #vern\n`;
+    helpMessage += `> 𝗧𝘆𝗽𝗲 ${prefix}𝗵𝗲𝗹𝗽 <𝗰𝗼𝗺𝗺𝗮𝗻𝗱> 𝗳𝗼𝗿 𝗺𝗼𝗿𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀.\n`;
 
     helpMessage += `> 𝗘𝗻𝗷𝗼𝘆 𝘂𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗼𝘁!`;
 
-    helpMessage += `> Keijo dakog oten fb account: https://www.facebook.com/c8py.link.kan4n4m4nb0b0`;
+    helpMessage += `> Keijo Enrile Fb acc: https://www.facebook.com/c8py.link.kan4n4m4nb0b0`;
 
     api.shareContact(helpMessage, api.getCurrentUserID(), threadID);
 
